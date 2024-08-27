@@ -15,13 +15,15 @@ computing sciences or distributed systems principles to incidentally produce
 software that is correct, reliable, and scalable. These designs are often an
 attempt to emulate large software companies with complex requirements highly
 specific to that organization's practices and pool of engineering resources.
+Such systems are rarely appropriate outside of those contexts, and contribute
+toward software that is poorly understood and difficult to maintain.
 
 The task of the modern software engineer is thus twofold: First to design systems
 which meet established correctness and performance requirements to serve users
-and secondly, to combat the general trend toward designing hypercomplex systems
+and secondly, to combat the general trend toward building hypercomplex systems
 in favor of those which are cost-effective and simple to maintain. What eludes
-many earnest programmers is exactly how to go about educating themselves to rise
-to the occasion.
+many earnest programmers is how exactly they might educate themselves in order
+to better fulfill their obligations.
 
 It is my opinion that the only antidote to the hype, marketing, misconceptions,
 and general chaos of distributed systems is a rigorous treatment of the facts.
