@@ -121,4 +121,11 @@ trans-->consensus
 consensus-->faults
 ```
 
-## Find a Mistake?
+## Suggestions?
+
+If you've identified a mistake, please file [an error](https://github.com/BeautifulTovarisch/ds-guided-intro/issues/new?assignees=&labels=&projects=&template=error.md&title=%5BError%5D) describing the issue.
+
+If you have a suggestion for a resource I should add, please file a [suggestion](https://github.com/BeautifulTovarisch/ds-guided-intro/issues/new?assignees=&labels=&projects=&template=suggestion.md&title=%5BSuggestion%5D)
+with a link to the resource and a brief justification for why you feel it ought
+to be included. **Please note** that resources that do not align with the goals
+of this repository will not be considered.
