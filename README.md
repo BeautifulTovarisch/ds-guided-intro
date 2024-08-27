@@ -78,8 +78,47 @@ afterwards. Most senior+ software engineers would benefit from this book.
 
 Distributed Systems is a more traditional textbook on the subject. The coverage
 is somewhat more general than DDIA, and is slightly more modern. This book is
-also available for free from author's website.
+available for free from author's website.
 
 ## Recommended Study Plan
+
+The following is a recommended plan of attack for covering each module. This
+approach is one of many, and can be modified to suit the tastes of the reader.
+Deviating _too_ much is ill-advised, as some topics (such as transactions)
+depend on previous material.
+
+```mermaid
+graph LR
+    intro[Introduction]
+    conc[Concurrency]
+    virt[Virtualization]
+    rpc[Remote Procedure Calls]
+    part[Partitioning]
+    repl[Replication]
+    clock[Clocks]
+    trans[Transactions]
+    pubsub[Publish/Subscribe]
+    consistency[Consistency]
+    consensus[Consensus]
+    faults[Fault Tolerance]
+
+intro-->virt
+intro-->conc
+intro-->rpc
+
+conc-->part
+conc-->clock
+
+part-->repl
+clock-->repl
+
+repl-->pubsub
+repl-->trans
+
+trans-->consistency
+trans-->consensus
+
+consensus-->faults
+```
 
 ## Find a Mistake?
