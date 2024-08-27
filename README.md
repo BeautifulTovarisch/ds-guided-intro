@@ -66,6 +66,14 @@ Optional readings are usually to provide context or real-world examples of some
 topic. These can be read for enjoyment, but are most often excellent resources
 to bring up in a discussion with your study group or team.
 
+### Labs
+
+Some sections also include a hands-on practical lab. While this by itself is
+not sufficient to replace real-world experience, practicing in isolation can
+help reinforce the material and build confidence in working with technologies
+typically found in a distributed setting. Completion of a lab can be done at
+your leisure, and is not a requirement to advance through the study plan.
+
 ### Books
 
 There are two recommendations for self-contained books:
