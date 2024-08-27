@@ -44,8 +44,8 @@ large technology companies may benefit less from this guide.
 
 The guide is organized into broad topics in distributed systems. Each of these
 topics includes recommended and optional reading and exercises if applicable.
-When applicable, certain materials will be listed as prerequisites. This is not
-a hard-and-fast rule, but in most cases the subsequent material will be more
+Occasionally, certain materials will be listed as prerequisites. This is not a
+hard-and-fast rule, but in most cases the subsequent material will be more
 approachable than if you had not gone through the background material.
 
 Whenever possible, freely available resources are provided.
