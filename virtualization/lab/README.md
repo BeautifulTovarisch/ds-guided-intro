@@ -32,18 +32,21 @@ Each task will require the programmer to read the documentation and experiment
 with various commands and configuration until the requirements are satisfied.
 In other words, this is **not a tutorial**, and solutions will require you to
 seek out information and iterate on a problem as if you were tasked with this
-assignment in real life. This may be frustrating, but ultimately the outcome is
-superior to having a rote set of instructions to follow.
+assignment in real life. This may be frustrating, but it leads to a superior
+learning experience when compared to simply following instructions.
 
 ## 1. Getting Started
 
-This task involved creating a basic `Dockerfile`. The Dockerfile should add the
+To start out, create a basic `Dockerfile`. The Dockerfile should add the
 application source to the image and build successfully. Build your image with
 the following command:
 
 ```bash
 docker build . -t containerlabhttp
 ```
+
+See the [Dockerfile Reference](https://docs.docker.com/reference/dockerfile/)
+for more information.
 
 ## 2. Running the Application
 
