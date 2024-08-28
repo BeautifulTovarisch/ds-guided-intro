@@ -48,7 +48,9 @@ The guide is organized into broad topics in distributed systems. Each of these
 topics includes recommended and optional reading and exercises if applicable.
 Occasionally, certain materials will be listed as prerequisites. This is not a
 hard-and-fast rule, but in most cases the subsequent material will be more
-approachable than if you had not gone through the background material.
+approachable than if you had not gone through the background material. Finally,
+each section has a short list of learning objectives that may help you identify
+key takeways from the readings.
 
 Whenever possible, freely available resources are provided.
 
@@ -84,11 +86,19 @@ Designing Data-Intensive Applications is an incredible resource on distributed
 systems, and contains an enormous abundance of references that can be explored
 afterwards. Most senior+ software engineers would benefit from this book.
 
+> NOTE: I refer to readings in "Designing Data-Intensive Applications" as follows:
+>   Kleppmann (1.SectionA, 1.SectionB, ...)
+> to indicate which sections of the textbook should be read.
+
 2. [Distributed Systems](https://www.distributed-systems.net/index.php/books/ds4/) by Van Steen and Tanenbaum
 
 Distributed Systems is a more traditional textbook on the subject. The coverage
 is somewhat more general than DDIA, and is slightly more modern. This book is
 available for free from author's website.
+
+> NOTE: I refer to readings in "Distributed Systems" as follows:
+>   Tanenbaum (x.x, x.y, ...)
+> to indicate which sections of the textbook should be read.
 
 ## Recommended Study Plan
 
