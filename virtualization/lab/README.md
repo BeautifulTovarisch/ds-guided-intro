@@ -1,7 +1,7 @@
 # Container Lab
 
-This lab provides experience "containerizing" a web application. The outcomes
-of this lab include:
+The objective of this lab is to "containerize" a web application. The outcomes
+include:
 
 - Ability to write image specifications (Dockerfiles) for web applications
 - Working experience with popular containerization tools (Docker or Podman)
