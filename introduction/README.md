@@ -28,4 +28,4 @@ to talk about some characteristics of distributed applications.
 1. Think about how you would describe the characteristics of performance and
    reliability to a non-technical team member.
 
-2. What improvements to testing can be introduced at your organization?
+2. What lessons about testing did you take away from the Yuan et. al paper?
