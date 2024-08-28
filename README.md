@@ -4,7 +4,7 @@ The widespread adoption of distributed systems in the modern software space has
 posed numerous challenges to programmers seeking to build correct and scalable
 applications. Unfortunately, opinions on how to approach such tasks vary wildly,
 and easily accessible resources (blogs, articles, etc.) tend to offer little in
-the way of rigorous discussion and depth of understanding. This tends to result
+the way of rigorous discussion and depth of understanding. This in turn results
 in a great deal of confusion and insecurity among software engineers looking to
 enrich their skillsets to meet the demands of modern organizations.
 
