@@ -1,8 +1,12 @@
 /** Product API
  *
- * This program is a service which handles operations on a Product database.
+ * This program is a service which handles operations on a Product database. It
+ * should expose an API which allows clients to create and view products in an
+ * imaginary online store. Updating and deleting existing records are out of
+ * scope for this lab.
+ *
  * The purpose of the program is to demonstrate building applications using the
- * gRPC framework.
+ * gRPC framework. Its service definition can be found in 'product.proto'.
  */
 
 import logger from './logger/index.js';
