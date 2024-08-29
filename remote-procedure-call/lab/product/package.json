@@ -1,0 +1,23 @@
+{
+  "name": "productapi",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "CRUD API to handle operations on Products",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/BeautifulTovarisch/ds-guided-intro"
+  },
+  "keywords": [
+    "gRPC",
+    "distributed",
+    "systems",
+    "lab"
+  ],
+  "author": "",
+  "license": "ISC"
+}
