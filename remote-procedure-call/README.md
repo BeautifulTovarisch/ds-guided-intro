@@ -21,3 +21,8 @@ This module includes a [lab](./lab)
 - [Implementing Remote Procedure Calls](https://web.eecs.umich.edu/~mosharaf/Readings/RPC.pdf)
 - [The Rise and Fall of CORBA](https://queue.acm.org/detail.cfm?id=1142044)
 - [Convenience over Correctness](https://steve.vinoski.net/pdf/IEEE-Convenience_Over_Correctness.pdf)
+
+## Exercises
+
+1. Consider how you might argue for or against using RPC at your organization.
+   How would you convince your team one way or the other?
