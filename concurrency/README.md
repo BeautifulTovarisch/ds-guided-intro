@@ -22,7 +22,7 @@ an implementation are unreliable when non-determinism is introduced.
 
 ## Optional Readings
 
-- Operating Systems: Three Easy Pieces (Excellent Free Book!)
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (Excellent Free Book!)
     - [Concurrency and Threads](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
     - [Locks](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)
     - [Semaphores](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf)
