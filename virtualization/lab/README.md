@@ -35,7 +35,7 @@ seek out information and iterate on a problem as if you were tasked with this
 assignment in real life. This may be frustrating, but it leads to a superior
 learning experience when compared to simply following instructions.
 
-## 1. Getting Started
+## 1. Dockerfile
 
 To start out, create a basic `Dockerfile`. The Dockerfile should add the
 application source to the image and build successfully. Build your image with
