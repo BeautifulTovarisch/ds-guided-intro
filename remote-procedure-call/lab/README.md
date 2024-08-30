@@ -62,8 +62,9 @@ flowchart LR
 
     subgraph Product
         product <--> productdb
-        product <--> payments
     end
+
+    product <--> payments
 
     subgraph Payments
         payments <--> paymentdb
