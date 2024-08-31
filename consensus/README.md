@@ -24,7 +24,7 @@ modules before approaching the material in this section.
 
 ## Optional Readings
 
-- Kleppmann (9.Distributed Transactions and Consensus)
+- Kleppmann (9.Atomic Commit and 2PC, 9.Distributed Transactions in Practice)
 - [How to do distributed locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 - [Is Redlock safe?](http://antirez.com/news/101)
 - [The fallacy of distributed transactions](https://ayende.com/blog/167362/the-fallacy-of-distributed-transactions)
