@@ -30,3 +30,14 @@ conclusions about what is appropriate for the systems they build.
 - Kleppmann (11.Stream Processing)
 - [Bottled Water](https://martin.kleppmann.com/2015/04/23/bottled-water-real-time-postgresql-kafka.html)
 - [Stream Processing Hard Problems](https://www.linkedin.com/blog/engineering/data-streaming-processing/stream-processing-hard-problems-part-1-killing-lambda)
+
+## Exercises
+
+1. Read [REL04-BP02](https://docs.aws.amazon.com/wellarchitected/2023-10-03/framework/rel_prevent_interaction_failure_loosely_coupled_system.html)
+   from AWS's Well-Architected framework. Discuss some tradeoffs with the ideas
+   presented in the article.
+
+2. Think about the differences between the [RabbitMQ](https://www.rabbitmq.com/docs)
+   and [Kafka](https://kafka.apache.org/20/documentation.html) message brokers.
+   What are some fundamental differences between the two? When might one be more
+   appropriate than the other?
