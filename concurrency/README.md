@@ -12,6 +12,12 @@ bugs that arise in virtually any distributed system. Detecting concurrency bugs
 is extraordinarily difficult; many of the tools normally used to find errors in
 an implementation are unreliable when non-determinism is introduced.
 
+## Objectives
+
+- Understand the basic primitives of concurrent programming
+- Identify the challenges potential bugs that arise in an concurrent system
+- Develop a conceptual framework for thinking about concurrency
+
 ## Recommended Readings
 
 - Tanenbaum (3.1)
