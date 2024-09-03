@@ -28,6 +28,11 @@ an implementation are unreliable when non-determinism is introduced.
 
 ## Optional Readings
 
+- [Dive into Systems](https://diveintosystems.org/) (Accessible introduction to Computer Systems)
+    - [14.1 - Programming Multicore Systems](https://diveintosystems.org/singlepage/#_programming_multicore_systems)
+    - [14.2 - Hello Threading!](https://diveintosystems.org/singlepage/#_hello_threading_writing_your_first_multithreaded_program)
+    - [14.3 - Synchronizing Threads](https://diveintosystems.org/singlepage/#_synchronizing_threads)
+    - [14.6 - Thread Safety](https://diveintosystems.org/singlepage/#_thread_safety)
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) (Excellent Free Book!)
     - [Concurrency and Threads](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
     - [Locks](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)
@@ -35,4 +40,31 @@ an implementation are unreliable when non-determinism is introduced.
 
 ## Exercises
 
-TODO
+1. The program [hellothread.c](./hellothread.c) is meant to print "hello, world"
+   from the `sayHello` routine. Instead, the program exits silently. Correct the
+   bug in this program.
+
+2. [count.c](./count.c) is a program that uses two threads to increment a counter.
+   The program contains a bug known as a data race. Modify the program to fix
+   this mistake.
+
+   NOTE: If you are not convinced the program is incorrect, trying running it
+   with larger inputs
+
+   Challenge: Can you think of a way to fix the implementation that does not use
+   explicit synchronization (e.g mutexes)?
+
+3. Parallel computing has important applications in science and mathematics. In
+   this exercise, a program called [dotp.c](./dotp.c) computes the dot product
+   of two vectors. A sequential implementation is provided, but when the input
+   to the program becomes large, the computation is incredibly slow. Modify the
+   program to compute the dot product in parallel.
+
+   HINT: using semaphores or other forms of synchronization are unlikely to have
+   a dramatic impact on the performance of the program. Can you think of a way
+   this operation can be split apart and then combined later?
+
+   Challenge: Implementing your own linear algebra operations is generally ill-
+   advised. Most hardware chips have Basic Linear Algebra Subroutines (BLAS) as
+   a part of the firmware. For an extra challenge, modify the program use the
+   c-bindings for BLAS (CBLAS).
